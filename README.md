@@ -1,0 +1,2 @@
+# CCBan
+Simple ban manager
