@@ -1,0 +1,21 @@
+name: CCBan
+main: ml.bmlzootown.CCBan
+version: 0.0.1
+author: bmlzootown
+description: Bans, but with the default CC appeal message
+
+commands:
+   ban:
+      description: /ban [reason] defaultAppealMessage
+      permission: cc.ban
+      permission-message: You don't have permission for this command
+
+permissions:
+   cc.*:
+      description: gives all permissions for CCBan
+      default: op
+      children:
+        cc.ban:
+          description: Gives access to ban command
+        cc.notify:
+          description: Gives access to ban notifications
