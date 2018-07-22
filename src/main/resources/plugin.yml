@@ -3,6 +3,7 @@ main: ml.bmlzootown.CCBan
 version: 0.0.1
 author: bmlzootown
 description: Bans, but with the default CC appeal message
+api-version: 1.13
 
 commands:
    ban:
