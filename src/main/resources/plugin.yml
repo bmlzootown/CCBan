@@ -1,6 +1,6 @@
-name: CCBan
+name: ${project.name}
 main: ml.bmlzootown.CCBan
-version: 0.0.1
+version: ${project.version}
 author: bmlzootown
 description: Bans, but with the default CC appeal message
 api-version: 1.13
